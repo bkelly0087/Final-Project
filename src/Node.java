@@ -49,7 +49,9 @@ public class Node<T> {
     public void setList(ArrayList<String> l) {
         list = l;
     }
-    
+    /**
+     * to string method for the array list
+     */
     public String toString() {
         String result = " ";
         for (int i = 0; i< this.list.size(); i++) {
