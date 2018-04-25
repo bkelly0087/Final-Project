@@ -26,7 +26,7 @@ public class NodeTest extends TestCase {
         Node<String> n3 = new Node<String>("b", null);
         n3.setElement("new");
         assertEquals("new", n3.getElement());
-    }
+    } 
     
     /**
      * test setElement method
