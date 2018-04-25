@@ -59,9 +59,13 @@ public class Node<T> {
     public void setList(ArrayList<String> l) {
         list = l;
     }
+<<<<<<< HEAD
     /**
      * to string method for the array list
      */
+=======
+    
+>>>>>>> branch 'master' of https://github.com/bkelly0087/Final-Project.git
     /**
      * Returns the node as a string
      * @return the string
