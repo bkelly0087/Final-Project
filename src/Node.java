@@ -1,4 +1,52 @@
+import java.util.ArrayList;
+/**
+ * 
+ * @author Brad Kelly 
+ *
+ * @param <T>
+ */
+public class Node<T> {
 
-public class Node {
-
+    private T element;
+    private ArrayList<String> list;
+    /**
+     * constructor for the node
+     * @param l element for node
+     * @param A Arraylist
+     */
+    public Node(T l, ArrayList<String> A) {
+        list = new ArrayList<String>();
+        element = l;
+    }
+    /**
+     * getter for the element
+     * @return element
+     */
+    public T getElement() {
+        return element;
+    }
+    /**
+     * setter for the element
+     * @param value value to set
+     */
+    public void setElement(T value) {
+        element = value;
+    }
+    /**
+     * Getter of the array list
+     * @return ArrayList 
+     */
+    public ArrayList<String> getList(){
+        return list;
+    }
+    /**
+     * setter for the array list
+     * @param l sets equal to list
+     */
+    public void setList(ArrayList<String> l) {
+        list = l;
+    }
+    
+    
+    
 }
