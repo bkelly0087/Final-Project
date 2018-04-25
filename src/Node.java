@@ -1,8 +1,16 @@
 import java.util.ArrayList;
 /**
  * 
+<<<<<<< HEAD
  * @author Brad Kelly 
  * @version 2018.04.24
+=======
+ * @author Matt Charno
+ * @author Cyrus Johannes
+ * @author Brad Kelly
+ * @version 2018.04.24
+ *
+>>>>>>> branch 'master' of https://github.com/bkelly0087/Final-Project.git
  * @param <T>
  */
 public class Node<T> {
@@ -56,10 +64,19 @@ public class Node<T> {
      * Returns the node as a string
      * @return the string
      */
-    public String toString() {
-        if (this.list == null) { // beware of null!
+    public String toStringCy() {
+        if (this.list == null) { // null
             return "null";
         }
         return this.list.toString();
     }
+
+    public String toString() {
+        String result = " ";
+        for (int i = 0; i< this.list.size(); i++) {
+            result += " " + this.list.get(i);
+        }
+        return result;
+    }
+    
 }

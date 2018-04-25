@@ -44,7 +44,7 @@ public class NodeTest extends TestCase {
         n1.setList(l1);
         assertEquals(n1.getList(), l1);
     }
-    
+     
     /**
      * test setList method
      */
