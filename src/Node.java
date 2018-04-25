@@ -1,7 +1,10 @@
 import java.util.ArrayList;
 /**
  * 
- * @author Brad Kelly 
+ * @author Matt Charno
+ * @author Cyrus Johannes
+ * @author Brad Kelly
+ * @version 2018.04.24
  *
  * @param <T>
  */

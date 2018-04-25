@@ -73,7 +73,8 @@ public class Point {
             return true;
         }
         if(o instanceof Point) {
-            return this.getX() == ((Point) o).getX() || this.getY() == ((Point)o).getY() ;
+            return this.getX() == ((Point) o).getX() || 
+                    this.getY() == ((Point)o).getY();
         }
         else {
             return false;
