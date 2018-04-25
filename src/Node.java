@@ -47,6 +47,12 @@ public class Node<T> {
         list = l;
     }
     
-    
+    public String toString() {
+        String result = " ";
+        for (int i = 0; i< this.list.size(); i++) {
+            result += " " + this.list.get(i);
+        }
+        return result;
+    }
     
 }

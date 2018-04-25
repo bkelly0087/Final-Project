@@ -64,7 +64,21 @@ public class Point {
         this.y = y;
     }
     
-    
+    /**
+     * overridden equals method 
+     * @param o is the object to be compared
+     */
+    public boolean equals(Object o) {
+        if(this == o) {
+            return true;
+        }
+        if(o instanceof Point) {
+            return this.getX() == ((Point) o).getX() || this.getY() == ((Point)o).getY() ;
+        }
+        else {
+            return false;
+        }
+    }
     
     
 }
