@@ -41,7 +41,7 @@ public class Node<T> {
      * @param value value to set
      */
     public void setElement(T value) {
-        element = value;
+        this.element = value;
     }
     
     /**

@@ -65,7 +65,7 @@ public class Point {
     }
     
     /**
-     * overridden equals method 
+     *equals method 
      * @param o is the object to be compared
      */
     public boolean equals(Object o) {
